@@ -1,0 +1,90 @@
+body {
+  width: 100%;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+	padding:0px;
+	margin:0;
+}
+.button{
+	margin-bottom: 10px;
+	height:8%;
+}
+
+#web_name{
+	color:#dbdbdb;
+	text-align:center;
+}
+
+#web_name_font{
+	font-size:80px;
+	font-family:"PLAYBILL";
+	/*-webkit-text-stroke:white 1px;*/
+}
+#hat{
+	margin-top:-16px;
+	width:100%;
+	height:17%;
+	background-color:#171717;
+}
+#main_button_menu{
+	display:block;
+	width: 10%;
+	margin-top:2%;
+	height:500px;
+}
+
+#programs_button{
+	width:100%;
+	height:100%;
+	margin-bottom: 10px;
+	background-color: black;
+	border: 3px solid #D3D3D3;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+}
+
+#youtube_button{
+	width:100%;
+	height:100%;
+	margin-bottom: 10px;
+	background-color: #e2363a;
+	border: 3px solid black;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#discord_button{
+	width:100%;
+	height:100%;
+	margin-bottom: 10px;
+	background-color: #483D8B;
+	border: 3px solid black;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+}
+
+#basement{
+	padding:1%;
+	background-color:#171717;
+	height:2%;
+	width:100%;
+	position: fixed;
+	left: 0; 
+	bottom: 0;
+	color:#dbdbdb;
+}
+#left{
+	margin-right:40%;
+}
+#right{
+	margin-left:40%;
+}
+.basement_element{
+	display:inline;
+}
